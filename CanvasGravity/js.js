@@ -29,6 +29,9 @@ window.addEventListener('resize', () =>{
     canvas.height =  window.innerHeight;
     init();
 })
+window.addEventListener('click', () =>{
+    init();
+})
 
 function Bubble (x,y,dx, dy, size){
     this.x = x;
