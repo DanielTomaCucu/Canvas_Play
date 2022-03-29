@@ -14,7 +14,6 @@ let mouse ={
 window.addEventListener('mousemove', function (e){
     mouse.x = e.x;
     mouse.y = e.y;
-    console.log(mouse);
 });
 
 class Particles {
